@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002420612426))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002469952747))
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ksgaksbsye/Radhaxmusic",
+    "https://github.com/JayKumar102030405060707090/KOMALMUXIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NAINCY_UPDATES")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RADHA_MUSIC_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Darkworldlove")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Darkworld_Officiall")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,7 +81,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/oGm.jpg"
+    "START_IMG_URL", "https://graph.org/file/d01ee1681b9ac73cdb6bf-c362803186858be64a.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/oGM.jpg"
